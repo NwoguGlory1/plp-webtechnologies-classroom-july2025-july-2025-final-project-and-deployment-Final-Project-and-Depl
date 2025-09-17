@@ -1,90 +1,95 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Nwogu Glory's Portfolio
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+Welcome to the official repository for **Nwogu Glory's Personal Portfolio Website** — a professionally crafted digital space that introduces me as a Backend Software Engineer, highlights my skills and education, showcases my projects and proficient programiing languages, professional interests and allows easy contact through various channels. This project was built with simplicity, responsiveness, and clarity in mind.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 🌟 Features and Tech Stack
 
-Before you write any code, take time to plan:
+### 🔧 Features
+- Responsive and clean user interface
+- Smooth navigation with anchor-linked sections
+- Personal introduction and career summary
+- Showcases notable projects with GitHub and live links
+- Professional downloadable resume (PDF format)
+- Easy contact options via email and LinkedIn
+- Deployed and accessible on the web
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+### 💻 Tech Stack
+| Category                         | Technologies Used              |
+| -------------------------------- | ------------------------------ |
+| **Frontend**                     | HTML5, CSS3                    |
+| **Backend Experience Showcased** | Python (Django), PHP (Laravel) |
+| **Version Control**              | Git, GitHub                    |
+| **Development Tools**            | VS Code, Linux                 |
+| **Deployment**                   | Vercel                         |
+| **Icons & Assets**               | Font Awesome, Custom Images    |
 
-**Goal:** Show intentional structure and user journey across the site.
 
----
+## 📁 Folder Structure
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+The project is organized as follows:
+portfolio/
+│
+├── index.html # Main HTML file for the entire portfolio
+│
+├── css/
+│ └── style.css # All custom CSS styles live here
+│
+├── assets/
+│ └── Passport.jpg # Profile picture and other media a
+│
+└── README.md # This documentation file
 
-Using your plan, begin building:
+## Development Process
+Repository Initialization
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Initialized the project locally and created a main branch.
 
-Each page should:
+Set up the basic folder structure with index.html, css/, and assets/.
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+Linked the local repository to a remote one on GitHub.
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Version Control with Git
 
----
+Created a develop branch locally, then created separate feature branches for each section of the site.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+After completing work on a feature branch, I pushed it to the develop branch, deleted the old feature branch, and started a fresh one for the next feature.
 
-Before deployment, refactor your project to follow production-friendly practices:
+Maintained a clean commit history using Git.
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Merged the develop branch into main after final edits to HTML and CSS and after updating the README.md file.
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Feature Branching Workflow
 
----
+Created isolated branches for individual features (e.g., feature/about-section, feature/projects, etc.).
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+Developed each section (Home, About, Skills, Projects, Contact) independently.
 
-Once your project is complete, choose a method to **host your site online**.
+Merged completed features into the main branch after testing and review.
 
-You can use:
+Responsive Design
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+Implemented CSS media queries to ensure mobile and desktop compatibility.
 
-Deploy your project and confirm that:
+Utilized semantic HTML5 and CSS Flexbox/Grid for proper layout structuring.
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Polishing & Testing
 
-**Goal:** Publish your work online and make it accessible to the world.
+Validated HTML/CSS syntax and ensured responsive design across devices.
 
----
+Verified all external/internal links (GitHub, LinkedIn, downloadable CV, contact form) were working correctly.
 
-## Deliverables
+## Live demo link
+https://portfolio-lovat-sigma-y2fqh67dkk.vercel.app/
 
-1. A GitHub repository containing:
+## Deployment
+This portfolio is deployed using Vercel for fast and seamless hosting.
+Deployment is triggered automatically after pushing to the main branch on GitHub.
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+## Contact
+Feel free to reach out via email or through the contact form on the portfolio site.
 
----
+Email: glorynwogu18@gmail.com
 
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+LinkedIn: linkedin.com/in/glory-nwogu-a2a95020b
